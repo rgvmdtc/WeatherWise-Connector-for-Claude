@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "weatherwise": {
+      "command": "node",
+      "args": ["/ABSOLUTER/PFAD/WeatherWise-Connector-for-Claude/dist/index.js"],
+      "env": {
+        "WEATHERWISE_EMAIL": "du@example.com",
+        "WEATHERWISE_PASSWORD": "dein-passwort"
+      }
+    }
+  }
+}
